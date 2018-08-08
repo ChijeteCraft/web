@@ -6,3 +6,11 @@ try {
     echo "error de conexion";
   }
 ?>
+<html>
+    <head>
+        <title>Hola</title>
+    </head>
+    <body>
+        <h1>Hola</h1>
+    </body>
+</html>
