@@ -1,5 +1,8 @@
 <?php
-file_put_contents(hola.php, '<p>Hola</p>');
-echo "Hola!!! tu archivo se creo";
-header('Location: index.php');
+try {
+    $conexion = new PDO("mysql:host="db4free.net:3306";dbname="chijetecraft", "chijetecraft", "chijete456");
+    return $conexion;
+  } catch (PDOException $e) {
+    return false;
+  }
 ?>
